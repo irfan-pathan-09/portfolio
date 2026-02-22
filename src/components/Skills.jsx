@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-
+import { SiOpenai } from "react-icons/si";
+import { SiFastapi } from "react-icons/si";
+import { FaRobot } from "react-icons/fa";
 import {
   FaPython,
   FaDatabase,
@@ -20,6 +22,9 @@ export default function Skills() {
   const skills = [
     { name: "Python", icon: <FaPython size={40}/> },
     { name: "Machine Learning", icon: <FaBrain size={40}/> },
+    { name: "FastAPI", icon: <SiFastapi size={40}/> },
+    { name: "AI Systems", icon: <FaRobot size={40}/> },
+    { name: "ChatGPT / LLMs", icon: <SiOpenai size={40}/> },
     { name: "Data Analysis", icon: <FaChartBar size={40}/> },
     { name: "Pandas", icon: <SiPandas size={40}/> },
     { name: "NumPy", icon: <SiNumpy size={40}/> },

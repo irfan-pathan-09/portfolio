@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import profile from "../assets/profile.jpg";
 
 export default function About() {
 
@@ -17,7 +16,7 @@ export default function About() {
         About Me
       </motion.h2>
 
-      <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="gap-12 items-center">
 
         {/* Text */}
         <motion.div

@@ -74,13 +74,22 @@ export default function Navbar() {
 
       {/* Mobile Dropdown */}
       {menuOpen && (
-        <div className="md:hidden bg-black/80 backdrop-blur-lg flex flex-col items-center gap-6 py-6">
-
-          <button onClick={() => scrollTo("hero")}>Home</button>
-          <button onClick={() => scrollTo("about")}>About</button>
-          <button onClick={() => scrollTo("projects")}>Projects</button>
-          <button onClick={() => scrollTo("skills")}>Skills</button>
-          <button onClick={() => scrollTo("contact")}>Contact</button>
+  <div className="
+    md:hidden
+    absolute top-full left-0 w-full
+    backdrop-blur-xl
+    bg-white/90 dark:bg-black/90
+    border-b border-gray-300 dark:border-gray-700
+    flex flex-col items-center
+    gap-6 py-6
+    shadow-lg
+    animate-slideDown
+  ">  
+          <button onClick={() => scrollTo("hero")} className="text-lg font-medium hover:text-blue-500 transition">Home</button>
+          <button onClick={() => scrollTo("about")} className="text-lg font-medium hover:text-blue-500 transition">About</button>
+          <button onClick={() => scrollTo("projects")} className="text-lg font-medium hover:text-blue-500 transition">Projects</button>
+          <button onClick={() => scrollTo("skills")} className="text-lg font-medium hover:text-blue-500 transition">Skills</button>
+          <button onClick={() => scrollTo("contact")} className="text-lg font-medium hover:text-blue-500 transition">Contact</button>
 
         </div>
       )}

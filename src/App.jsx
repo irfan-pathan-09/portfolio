@@ -10,7 +10,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-gray-200 dark:from-black dark:to-gray-900 text-black dark:text-white transition duration-500">
+    <div className=" overflow-x-hidden min-h-screen bg-gradient-to-br from-white to-gray-200 dark:from-black dark:to-gray-900 text-black dark:text-white transition duration-500">
 
       {/* Navbar */}
 
