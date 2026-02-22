@@ -19,24 +19,6 @@ export default function About() {
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
 
-        {/* Image */}
-        <motion.div
-          initial={{opacity:0, x:-50}}
-          whileInView={{opacity:1, x:0}}
-          className="flex justify-center"
-        >
-
-          <img
-            src={profile}
-            className="
-              w-80 rounded-xl
-              shadow-2xl shadow-blue-500/30
-              hover:scale-105 transition duration-300
-            "
-          />
-
-        </motion.div>
-
         {/* Text */}
         <motion.div
           initial={{opacity:0, x:50}}

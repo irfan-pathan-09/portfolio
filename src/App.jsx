@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import profile from "./assets/profile.jpg";
 import Background from "./components/Background";
 import { TypeAnimation } from "react-type-animation";
@@ -194,7 +193,7 @@ export default function App() {
       {/* Contact */}
       <section id="contact"></section>
       <Contact />
-      
+
         {/* Footer */}
         <Footer />
     </div>
