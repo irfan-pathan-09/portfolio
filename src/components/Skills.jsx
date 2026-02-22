@@ -53,7 +53,7 @@ export default function Skills() {
             key={index}
             initial={{opacity:0, y:40}}
             animate={{opacity:1, y:0}}
-            transition={{delay:index * 0.1}}
+            transition={{durationm: 0.4}}
             whileHover={{
               scale:1.1,
               boxShadow:"0px 0px 20px rgba(59,130,246,0.6)"
