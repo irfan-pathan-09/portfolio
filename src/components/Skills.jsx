@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { SiOpenai } from "react-icons/si";
 import { SiFastapi } from "react-icons/si";
+import { SiWordpress, SiJavascript, SiReact, SiTailwindcss } from "react-icons/si";
 import { FaRobot } from "react-icons/fa";
 import {
   FaPython,
@@ -8,7 +9,9 @@ import {
   FaChartBar,
   FaFileExcel,
   FaBrain,
-  FaChartPie
+  FaChartPie,
+  FaHtml5,
+  FaCss3Alt
 } from "react-icons/fa";
 
 import {
@@ -32,6 +35,12 @@ export default function Skills() {
     { name: "Streamlit", icon: <SiStreamlit size={40}/> },
     { name: "Excel", icon: <FaFileExcel size={40}/> },
     { name: "SQL", icon: <FaDatabase size={40}/> },
+    { name: "WordPress", icon: <SiWordpress size={40}/> },
+    { name: "HTML5", icon: <FaHtml5 size={40}/> },
+    { name: "CSS3", icon: <FaCss3Alt size={40}/> },
+    { name: "JavaScript", icon: <SiJavascript size={40}/> },
+    { name: "React", icon: <SiReact size={40}/> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss size={40}/> },
   ];
 
   return (
@@ -53,7 +62,7 @@ export default function Skills() {
             key={index}
             initial={{opacity:0, y:40}}
             animate={{opacity:1, y:0}}
-            transition={{durationm: 0.4}}
+            transition={{duration: 0.4}}
             whileHover={{
               scale:1.1,
               boxShadow:"0px 0px 20px rgba(59,130,246,0.6)"

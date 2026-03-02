@@ -5,6 +5,13 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "LN Enterprises Website (Client Project)",
+      desc: "Developed and deployed a live client website during Internship at RightShift Solutions, focused on business presence and responsive front-end delivery.",
+      live: "https://lnenterprisesind.in/",
+      github: "",
+      tech: ["WordPress", "Frontend", "Responsive Design"]
+    },
+    {
       title: "SMS Spam Classifier",
       desc: "Machine Learning model that classifies SMS messages as spam or not spam using NLP.",
       live: "https://sms-classifier-irfan09.onrender.com",
@@ -107,17 +114,19 @@ export default function Projects() {
                 Live <FaExternalLinkAlt/>
               </a>
 
-              <a
-                href={project.github}
-                target="_blank"
-                className="
-                  flex items-center gap-2
-                  text-green-500
-                  hover:text-green-400
-                "
-              >
-                Code <FaGithub/>
-              </a>
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  className="
+                    flex items-center gap-2
+                    text-green-500
+                    hover:text-green-400
+                  "
+                >
+                  Code <FaGithub/>
+                </a>
+              )}
 
             </div>
 
