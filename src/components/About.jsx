@@ -26,24 +26,19 @@ export default function About() {
 
           <p className="text-gray-600 dark:text-gray-400 mb-4 text-lg">
 
-            I am an aspiring AI/ML developer passionate about building real-world intelligent systems.
-            I specialize in Python, Machine Learning, and Data Analysis, with hands-on experience in
-            developing and deploying production-level ML applications.
+            I am an AI/ML and web developer focused on building practical, user-focused digital solutions. I work across Python-based machine learning workflows and modern front-end development with WordPress and responsive UI implementation.
 
           </p>
 
           <p className="text-gray-600 dark:text-gray-400 mb-4 text-lg">
 
-            I have built and deployed multiple machine learning projects including a Spam Classifier,
-            Movie Recommendation System, and WhatsApp Chat Analyzer. I enjoy solving complex problems
-            and turning data into meaningful insights.
+            Alongside multiple deployed machine learning projects, I also delivered and deployed a live client website during my internship at RightShift Solutions: LN Enterprises (lnenterprisesind.in). I enjoy translating business needs into clean interfaces and reliable functionality.
 
           </p>
 
           <p className="text-gray-600 dark:text-gray-400 text-lg">
 
-            My goal is to become a professional AI/ML Engineer and contribute to building intelligent,
-            scalable, and impactful AI solutions.
+            My goal is to grow as a full-spectrum developer who can combine AI capabilities with strong front-end engineering to build scalable, impactful products.
 
           </p>
 
@@ -51,31 +46,23 @@ export default function About() {
           <div className="grid grid-cols-2 gap-4 mt-6">
 
             <div className="p-4 rounded-lg bg-blue-500/10">
-              <h3 className="text-xl font-bold text-blue-500">
-                3+
-              </h3>
+              <h3 className="text-xl font-bold text-blue-500">3+</h3>
               <p>Deployed ML Projects</p>
             </div>
 
             <div className="p-4 rounded-lg bg-blue-500/10">
-              <h3 className="text-xl font-bold text-blue-500">
-                Python
-              </h3>
-              <p>Primary Language</p>
+              <h3 className="text-xl font-bold text-blue-500">1</h3>
+              <p>Live Client Website</p>
             </div>
 
             <div className="p-4 rounded-lg bg-blue-500/10">
-              <h3 className="text-xl font-bold text-blue-500">
-                ML
-              </h3>
-              <p>Machine Learning</p>
+              <h3 className="text-xl font-bold text-blue-500">WordPress</h3>
+              <p>Client Delivery</p>
             </div>
 
             <div className="p-4 rounded-lg bg-blue-500/10">
-              <h3 className="text-xl font-bold text-blue-500">
-                Data
-              </h3>
-              <p>Data Analysis</p>
+              <h3 className="text-xl font-bold text-blue-500">Frontend</h3>
+              <p>Responsive UI Development</p>
             </div>
 
           </div>

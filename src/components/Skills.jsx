@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { SiOpenai } from "react-icons/si";
-import { SiFastapi } from "react-icons/si";
-import { SiWordpress, SiJavascript, SiReact, SiTailwindcss } from "react-icons/si";
+import { SiWordpress, SiJavascript, SiTailwindcss } from "react-icons/si";
 import { FaRobot } from "react-icons/fa";
 import {
   FaPython,
@@ -25,7 +24,6 @@ export default function Skills() {
   const skills = [
     { name: "Python", icon: <FaPython size={40}/> },
     { name: "Machine Learning", icon: <FaBrain size={40}/> },
-    { name: "FastAPI", icon: <SiFastapi size={40}/> },
     { name: "AI Systems", icon: <FaRobot size={40}/> },
     { name: "ChatGPT / LLMs", icon: <SiOpenai size={40}/> },
     { name: "Data Analysis", icon: <FaChartBar size={40}/> },
@@ -39,7 +37,6 @@ export default function Skills() {
     { name: "HTML5", icon: <FaHtml5 size={40}/> },
     { name: "CSS3", icon: <FaCss3Alt size={40}/> },
     { name: "JavaScript", icon: <SiJavascript size={40}/> },
-    { name: "React", icon: <SiReact size={40}/> },
     { name: "Tailwind CSS", icon: <SiTailwindcss size={40}/> },
   ];
 
@@ -96,3 +93,4 @@ export default function Skills() {
     </section>
   );
 }
+

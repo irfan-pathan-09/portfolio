@@ -37,13 +37,11 @@ export default function App() {
       {/* Typing animation */}
       <TypeAnimation
         sequence={[
-          "AI Developer",
+          "AI/ML Developer",
           2000,
-          "ML Engineer",
+          "Front-End Developer",
           2000,
           "Data Analyst",
-          2000,
-          "Python Developer",
           2000,
         ]}
         speed={50}
@@ -52,8 +50,7 @@ export default function App() {
       />
 
       <p className="mt-4 text-gray-600 dark:text-gray-400">
-        I build intelligent Machine Learning applications and deploy them
-        to production. Skilled in Python, ML, Data Analysis, Power BI, and AI systems.
+        I build AI/ML solutions and modern web experiences. I have hands-on experience with Python, Machine Learning, WordPress, and front-end development for real client deployments.
       </p>
 
       {/* Skills */}
@@ -62,10 +59,9 @@ export default function App() {
         {[
           "Python",
           "Machine Learning",
+          "WordPress",
+          "Front-End Development",
           "Data Analysis",
-          "Power BI",
-          "Streamlit",
-          "Excel"
         ].map(skill => (
 
           <span
